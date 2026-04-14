@@ -1,6 +1,6 @@
 # Profile Card
 
-🔗 [Live site](<live-site-url>)
+🔗 [Live site](<https://profile-i14.vercel.app/>)
 
 A responsive, accessible profile card — vanilla HTML, CSS, and JavaScript. No build step, no dependencies.
 
