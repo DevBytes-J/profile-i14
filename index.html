@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joanna Bassey</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="page">
+    <div class="grain" aria-hidden="true"></div>
+
+    <article class="card" data-testid="test-profile-card">
+
+      <div class="card-header">
+        <figure>
+          <img
+            src="profile.png"
+            alt="Joanna Bassey's profile photo"
+            data-testid="test-user-avatar"
+            class="avatar"
+          />
+        </figure>
+        <div class="card-identity">
+          <header>
+            <h1 data-testid="test-user-name">Joanna Bassey</h1>
+          </header>
+          <p data-testid="test-user-bio" class="bio">
+            Frontend dev by day, bug creator by night. Currently in a complicated relationship with grids — they said "just use auto-fit" and I haven't slept since. I speak three languages: English, TypeScript, and passive-aggressive commit messages.
+          </p>
+        </div>
+      </div>
+
+      <div class="time-strip">
+        <span>epoch ms</span>
+        <span data-testid="test-user-time" aria-live="polite" aria-atomic="true" id="epoch-time"></span>
+      </div>
+
+      <nav class="social-section" aria-label="Social links">
+        <ul data-testid="test-user-social-links" class="social-list">
+          <li><a href="https://github.com/DevBytes-J/" data-testid="test-user-social-github" target="_blank" rel="noopener noreferrer" class="social-link">GitHub</a></li>
+          <li><a href="https://x.com/Bassey_Joanna" data-testid="test-user-social-twitter" target="_blank" rel="noopener noreferrer" class="social-link">Twitter</a></li>
+          <li><a href="https://www.linkedin.com/in/joanna-bassey-554004338/" data-testid="test-user-social-linkedin" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a></li>
+        </ul>
+      </nav>
+
+      <div class="card-lists">
+        <section aria-labelledby="hobbies-heading">
+          <h2 id="hobbies-heading">Hobbies</h2>
+          <ul data-testid="test-user-hobbies" class="tag-list">
+            <li>Writing code</li>
+            <li>Sleeping</li>
+            <li>Listening to music</li>
+            <li>Reading books</li>
+            <li>Traveling</li>
+            <li>Cooking &amp; baking</li>
+          </ul>
+        </section>
+        <section aria-labelledby="dislikes-heading">
+          <h2 id="dislikes-heading">Dislikes</h2>
+          <ul data-testid="test-user-dislikes" class="tag-list">
+            <li>Slow build times</li>
+            <li>Bad UI &amp; UX</li>
+            <li>Slow websites</li>
+            <li>Unnecessary complexity</li>
+            <li>Bad documentation</li>
+            <li>Slow networks</li>
+            <li>Meals without pepper</li>
+            <li>Heat</li>
+          </ul>
+        </section>
+      </div>
+
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
